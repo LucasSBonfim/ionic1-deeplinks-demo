@@ -1,4 +1,13 @@
 {
   "name": "v1links",
-  "app_id": ""
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
 }
